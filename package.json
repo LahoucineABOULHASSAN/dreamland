@@ -1,12 +1,12 @@
 {
-  "name": "singlepage_register",
+  "name": "dreamland",
   "version": "1.0.0",
   "description": "Simple login and register web page using html5 and sass",
   "main": "index.js",
-  "homepage": "https://LahoucineABOULHASSAN.github.io/singlepage_register",
+  "homepage": "https://dreamland.netlify.app",
   "repository": {
     "type": "git",
-    "url": "RegisterWebpageProject"
+    "url": "https://LahoucineABOULHASSAN.github.io/dreamland"
   },
   "author": "Lahoucine ABOULHASSAN",
   "license": "MIT",
@@ -16,7 +16,6 @@
   "devDependencies": {},
   "scripts": {
     "sass": "sass scss:src/css",
-    "watch": "sass --watch scss:src/css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "sass --watch scss:src/css"
   }
 }

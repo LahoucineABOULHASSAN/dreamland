@@ -25,14 +25,14 @@ a {
 
 .btn {
   padding: 0.5rem 1rem;
-  border-radius: 3px;
+  border-radius: 5px;
   text-align: center;
 }
 
 .btn-primary {
   background: #3ca094;
+  border: 1px solid #3ca094;
   color: #000;
-  border: none;
 }
 .btn-primary:hover {
   background: #64c5b9;
@@ -42,12 +42,13 @@ a {
 
 .btn-secondary {
   background: #232323;
-  border: 1px solid #3ca094;
+  border: 1px solid #232323;
   color: #fff;
 }
 .btn-secondary:hover {
   background: rgba(35, 35, 35, 0.5);
   color: #64c5b9;
+  border: 1px solid #64c5b9;
 }
 
 .btn-small {
@@ -109,7 +110,8 @@ main#main-content aside#left-side header#main-header .form .form-group input[typ
   background: none;
 }
 main#main-content aside#left-side header#main-header .form .form-group input:focus {
-  outline: 1px auto #fff;
+  outline: none;
+  box-shadow: 0 0 3px #d9d9d9;
 }
 main#main-content aside#left-side header#main-header .form .form-group small {
   display: table;
